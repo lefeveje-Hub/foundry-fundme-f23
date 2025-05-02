@@ -1,66 +1,23 @@
-## Foundry
+## Foundry FundMe Cyfrin Updrat Project
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This is the second project of the Foundry Fundamentals course from Cyfrin Updraft. 
 
-Foundry consists of:
+We learned the following:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+* We learned more about how to set up a Foundry project
 
-## Documentation
+* We learned how to organize our files into folders, following the convention
 
-https://book.getfoundry.sh/
+* We learned how to refactor smart contracts to make them modular and chain-agnostic
 
-## Usage
+* We learned how to write scripts that act as interaction commands
 
-### Build
+* We learned more about using mocks
 
-```shell
-$ forge build
-```
+* We did a bunch of unit tests, we even did an integration test
 
-### Test
+* We learned a bit about Makefiles
 
-```shell
-$ forge test
-```
+* We learned how to create a GitHub repository and push our code in it
 
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+* We also learned how to clone a GitHub repository
