@@ -1,4 +1,4 @@
-## Foundry FundMe Cyfrin Updrat Project
+## Foundry FundMe Cyfrin Updraft Project
 
 This is the second project of the Foundry Fundamentals course from Cyfrin Updraft. 
 
